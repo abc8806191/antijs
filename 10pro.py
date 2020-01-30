@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #=============
-cl = LineClient(authToken='EzgiFI36PnvMrK5xUTpe.Ht4W4Go6ssdWwuiCLTBe3G.j0M13tKy34B+XVgiVOqCI0cRplGM/2BVvW1XabD7uEE=')
+cl = LineClient(authToken='EN8M4CX6VxWqvUGswI55.I7AJcrfysUIaxrqdad1azq.sCD6QR7EEHcGYhN4mjyn60eBFe/Md58/0Pk5gSCfG+s=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -20,7 +20,7 @@ lineSettings = cl.getSettings()
 mid = cl.getProfile().mid
 responsename1 = cl.getProfile().displayName
 
-ki = LineClient(authToken='Ez1PHxhicgh2BboXAb96.45y/Ci8UpCOzp52/AJRqnG.OKFFCcvO0PkIVEKCUp4IDZdJWrWGZaqYyvA5kKwFckY=')
+ki = LineClient(authToken='ENAvWngY8z5flW55zBo5.SUkPh0TjwPGD3SwfdjFMbq.im6H1Kl/f7GSZGzn94opGVIcGWPcdbZGoHwZxDRSaT4=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -29,7 +29,7 @@ lineSettings = ki.getSettings()
 Amid = ki.getProfile().mid
 responsename2 = ki.getProfile().displayName
 
-kk = LineClient(authToken='EzYTpHpc9D4r7dYLEwh7.RdukmrGz0bUOwjU0xcNZfW.ImxgmyiTE6YdYfvmtE3Rt6KkqMQoQu/+ayNjNkEJ3ZY=')
+kk = LineClient(authToken='ENLk2iO2hOezQCTT5lsd.Wo5AorAbkVgaweyzMEiZtq.X4T6M9XebHS39A5veRHlo0lZXe36kOezTcp93mk/+b4=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
@@ -38,7 +38,7 @@ lineSettings = kk.getSettings()
 Bmid = ki.getProfile().mid
 responsename3 = ki.getProfile().displayName
 
-kc = LineClient(authToken='EzAyQ8MNA09EIqG0O3v7.GaAFSWA3akXzHRaCm5Kt1W.oNkFEs9f+6LNu1aZ414CNyQL/XXcoPXkGYX8+dnQvwM=')
+kc = LineClient(authToken='ENzRZ2p0c9TjdDdoGTE9.kKQa4lOKUB85GqmO1mixIq.dlpenjksUVB55Aq1j8AXe96MMmaZZRIf2OCU9plBSOQ=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
@@ -47,7 +47,7 @@ lineSettings = kc.getSettings()
 Cmid = kc.getProfile().mid
 responsename4 = kc.getProfile().displayName
 
-km = LineClient(authToken='EzzrfAB9y0wXx4b9OwE6.IGGRJ+9hdIq/qKjEqs3nHG.4rGzTs13bfTYxYKzjOmKpLT0XT5m2tRFDXCL58OKtGk=')
+km = LineClient(authToken='EN2H3QkUsShdDYCz5mOb.prRZLwJqPCmMfE5IXSxJAW.8MD1eUxBFdPTQF6IlMYOdOxQYBfz7e51y4Z5byxRRR0=')
 km.log("Auth Token : " + str(km.authToken))
 channel4 = LineChannel(km)
 km.log("Channel Access Token : " + str(channel4.channelAccessToken))
@@ -56,7 +56,7 @@ lineSettings = km.getSettings()
 Dmid = km.getProfile().mid
 responsename5 = km.getProfile().displayName
 
-kb = LineClient(authToken='EzNo3ptfwvHampKjvmgc.miBOQWlX99pkuzQZathJha.u5ckvaHF+CvqAlKmn+bWhIfwajukZGWRAopnOt2hYEc=')
+kb = LineClient(authToken='EN7yezBSHf6rbeWX2DQb.O3gM/8W+lhDUWsy/dxrCUW./KqENZGdbS6jCXL9/csYrDiWx+atsUI9TNtDYNA42T8=')
 kb.log("Auth Token : " + str(kb.authToken))
 channel5 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
@@ -65,7 +65,7 @@ lineSettings = kb.getSettings()
 Emid = kb.getProfile().mid
 responsename6 = kb.getProfile().displayName
 
-kn = LineClient(authToken='Ezvg2oCqeX24eWzA8m7d.ZXDaCaCxbehr+Lt7trTy7q.H+XMb5K/juSHwmJHOcG6HhThDi9VimrAKkHJsYPvTO0=')
+kn = LineClient(authToken='ENmK4EkDyqBeUyPVF1Y1.6dg+OADJcZqj0Eao0Y02iq.kAii+yvI/OT0HP5+SE7Yboww5TJh0jjyTdpRw2nIyI8=')
 kn.log("Auth Token : " + str(kn.authToken))
 channel6 = LineChannel(kn)
 kn.log("Channel Access Token : " + str(channel6.channelAccessToken))
@@ -74,7 +74,7 @@ lineSettings = kn.getSettings()
 Fmid = kb.getProfile().mid
 responsename7 = kn.getProfile().displayName
 
-ko = LineClient(authToken='EznMrRYu0ml9rbp58I8e.QqK+buTE36R+5DqFggIxdG.n092Roo2YRGlzJnpmew0K9jlIX0TwdcfoEUtCGPn6ts=')
+ko = LineClient(authToken='EN8afrJ1bAco3yx1mJ02.ooURt8DAWMpy+5vsoJ0JqG.lAHw9ZL6nYKFlA0o+DWMJBahIvKLG9MYYLY8+dv9h/g=')
 ko.log("Auth Token : " + str(ko.authToken))
 channel7 = LineChannel(ko)
 ko.log("Channel Access Token : " + str(channel7.channelAccessToken))
@@ -83,7 +83,7 @@ lineSettings = ko.getSettings()
 Gmid = ko.getProfile().mid
 responsename8 = kb.getProfile().displayName
 
-kw = LineClient(authToken='Ezp6LA5diNXSoOCl3BSc.PcMgsqpRSSxP9dTPXdQJNa.ZmQ6T9NBrz8YmFjnvxtM4JA2t5UQW/syLn93svlhpM4=')
+kw = LineClient(authToken='EN2H3QkUsShdDYCz5mOb.prRZLwJqPCmMfE5IXSxJAW.8MD1eUxBFdPTQF6IlMYOdOxQYBfz7e51y4Z5byxRRR0=')
 kw.log("Auth Token : " + str(kw.authToken))
 channel8 = LineChannel(kw)
 kw.log("Channel Access Token : " + str(channel8.channelAccessToken))
@@ -92,7 +92,7 @@ lineSettings = kw.getSettings()
 Hmid = kw.getProfile().mid
 responsename9 = kw.getProfile().displayName
 
-ke = LineClient(authToken='Ezbfyc9cJqlrJUqZhfc6.GVulGnhLWCSAtrCy4J/C9G.gFvwkkwHyGlyOhsQj74TosmWbhkNxDxrr4/NBVxPu7Y=')
+ke = LineClient(authToken='ENYo3GuxdzKqrEyMWlac.3eFmkgPriPKsRz7omolaVa.CjYzVK6jVKLI7OslFoxbVSbm9L7Soh/mZtWeUC8Emfs=')
 ke.log("Auth Token : " + str(ke.authToken))
 channel9 = LineChannel(ke)
 ke.log("Channel Access Token : " + str(channel9.channelAccessToken))
@@ -101,7 +101,7 @@ lineSettings = ke.getSettings()
 Imid = ke.getProfile().mid
 responsename10 = ke.getProfile().displayName
 
-ky = LineClient(authToken='EzaXxxFYZR88qR7Kvrp8.vtxcXjNYTV0ZauNdncAiga.pbR9Eyi+ttpwrq3AHnnuF7jjjMloTMjAohuBnnDP6uE=')
+ky = LineClient(authToken='END2YaEUCtQ7Lp02c1S0.TQuvGUe+OXXocehvIoIIKa.jPdpXVwhy0SduXaEchNc7z+leeXcatvTXYl+1hy34WE=')
 ky.log("Auth Token : " + str(ky.authToken))
 channel10 = LineChannel(ky)
 ky.log("Channel Access Token : " + str(channel10.channelAccessToken))
@@ -110,7 +110,7 @@ lineSettings = ky.getSettings()
 Jmid = ky.getProfile().mid
 responsename11 = ky.getProfile().displayName
 
-sw = LineClient(authToken='EzoVW7G13gaEouAh6eK5.H3QVRcxrf43MfR2E0Grvrq.xageEL3zW4gidGmbR50+aecdsJHvrR++41s3Q3Phias=')
+sw = LineClient(authToken='ENgSKEEFgfrmdnFGQbQa.DXFKn4YysjJz53/2ow+nkG.rdT6PiLioXS9sbX0RwSgOWV1xic36CJfhWDFysU5XNg=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
@@ -121,10 +121,10 @@ responsename12 = sw.getProfile().displayName
 
 print("---LOGIN SUCCES---")
 
-creator = ["u853e30e203ba4920f059421c96d6c4de"]
-owner = ["u853e30e203ba4920f059421c96d6c4de"]
-admin = ["u853e30e203ba4920f059421c96d6c4de"]
-staff = ["u853e30e203ba4920f059421c96d6c4de","uf4e0981b54c02eaffd11e502432d081f","u594745e80b2e44398906ae77989327f7","ubd8f1f46aa9c78098eccd5c4305cc9db"]
+creator = ["ub6f9d53713c5869f0d78e71febe13837"]
+owner = ["ub6f9d53713c5869f0d78e71febe13837"]
+admin = ["ub6f9d53713c5869f0d78e71febe13837"]
+staff = ["ub6f9d53713c5869f0d78e71febe13837"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -320,7 +320,7 @@ def mentionMembers(to, mid):
     try:
         arrData = ""
         ginfo = cl.getGroup(to)
-        textx = "「 Daftar Member 」\n\n1. "
+        textx = "「 成員名單 」\n\n1. "
         arr = []
         no = 1
         for i in mid:
@@ -334,10 +334,10 @@ def mentionMembers(to, mid):
                 no += 1
                 textx += "「✭」{}. ".format(str(no))
             else:
-                textx += "\n「 Total {} Member 」".format(str(len(mid)))
+                textx += "\n「 總共 {} 人 」".format(str(len(mid)))
         cl.sendMessage(to, textx, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
-        cl.sendMessage(to, "[ INFO ] Error :\n" + str(error))
+        cl.sendMessage(to, "[ INFO ] 錯誤 :\n" + str(error))
            
 def siderMembers(to, mid):
     try:
@@ -652,7 +652,7 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "╔══[ ʜᴇʟᴇᴘ1 ]\n"+\
+                  "╔══[ 指令列表 ]\n"+\
                   "║☯➸ " + key + "Me\n" + \
                   "║☯➸ " + key + "Mid「@」\n" + \
                   "║☯➸ " + key + "Steal「@」\n" + \
@@ -695,7 +695,7 @@ def help():
                   "║☯➸ " + key + "Setkey「New Key」\n" + \
                   "║☯➸ " + key + "Mykey\n" + \
                   "║☯➸ " + key + "Resetkey\n" + \
-                  "╠══[ ᴍᴇᴅɪʏᴀ ]\n" + \
+                  "╠══[ 特殊功能 ]\n" + \
                   "║☯➸ " + key + "Kode wilayah\n" + \
                   "║☯➸ " + key + "Listmp3\n" + \
                   "║☯➸ " + key + "Listvideo\n" + \
@@ -734,7 +734,7 @@ def help():
                   "║☯➸ " + key + "Get-lirik「Judul Lagu」\n" + \
                   "║☯➸ " + key + "Get-instagram「User Name」\n" + \
                   "║☯➸ " + key + "Get-date「tgl-bln-thn」\n" + \
-                  "╠══[ protect ]\n" + \
+                  "╠══[ 保護 ]\n" + \
                   "║☯➸ " + key + "Notag「on/off」\n" + \
                   "║☯➸ " + key + "Allprotect「on/off」\n" + \
                   "║☯➸ " + key + "Protecturl「on/off」\n" + \
@@ -744,12 +744,12 @@ def help():
                   "║☯➸ " + key + "Protectcancel「on/off」\n" + \
                   "║☯➸ " + key + "Protectantijs「on/off」\n" + \
                   "║☯➸ " + key + "Ghost「on/off」\n" + \
-                  "╠══[ Set kicker ]\n" + \
+                  "╠══[ 設定踢出成員 ]\n" + \
                   "║☯➸ " + key + "Kick「on/off」\n" + \
                   "║☯➸ " + key + "Nk「@」\n" + \
                   "║☯➸ " + key + "Kick「@」\n" + \
                   "║☯➸ " + key + "Kickall \n" + \
-                  "╠══[ Set user ]\n" + \
+                  "╠══[ 設定使用者 ]\n" + \
                   "║☯➸ " + key + "Invite「on/off」\n" + \
                   "║☯➸ " + key + "Sticker「on/off」\n" + \
                   "║☯➸ " + key + "Unsend「on/off」\n" + \
@@ -761,7 +761,7 @@ def help():
                   "║☯➸ " + key + "Welcome「on/off」\n" + \
                   "║☯➸ " + key + "Autoleave「on/off」\n" + \
                   "║☯➸ " + key + "Jointicket「on/off」\n" + \
-                  "╠══[ Set Admin ]\n" + \
+                  "╠══[ 管理員專用選單 ]\n" + \
                   "║☯➸ " + key + "Selfbot「on/off」\n" + \
                   "║☯➸ " + key + "Bot:on\n" + \
                   "║☯➸ " + key + "Bot:expell\n" + \
@@ -779,16 +779,15 @@ def help():
                   "║☯➸ " + key + "Listbot\n" + \
                   "║☯➸ " + key + "Listadmin\n" + \
                   "║☯➸ " + key + "Listprotect\n" + \
-                  "╚══[     FI FAMZ BOTZ      ]\n" + \
+                  "╚══[     幻想工作室 Bot      ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "\nKetik「 Refresh 」jika sudah\nmenggunakan command diatas...\n"
     return helpMessage
 
 def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "╔══[ ʜᴇʟᴇᴘ 2 ]\n"+\
+                  "╔══[ 幫助頁面 2 ]\n"+\
                   "║☯➸ " + key + "Blc\n" + \
                   "║☯➸ " + key + "Ban:on\n" + \
                   "║☯➸ " + key + "Unban:on\n" + \
@@ -802,7 +801,7 @@ def helpbot():
                   "║☯➸ " + key + "Talkbanlist\n" + \
                   "║☯➸ " + key + "Clearban\n" + \
                   "║☯➸ " + key + "Refresh\n" + \
-                  "╠══[ Cek Seting ]\n" + \
+                  "╠══[ 確認設定 ]\n" + \
                   "║☯➸ " + key + "Cek sider\n" + \
                   "║☯➸ " + key + "Cek spam\n" + \
                   "║☯➸ " + key + "Cek pesan \n" + \
@@ -828,9 +827,8 @@ def helpbot():
                   "║☯➸ " + key + "Bot5up「Kirim fotonya」\n" + \
                   "║☯➸ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
                   "║☯➸ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
-                  "╚══[     fi famz bot      ]\n" + \
+                  "╚══[     幻想工作室BOT      ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "\nKetik「 Refresh 」jika sudah\nmenggunakan command diatas...\n"
     return helpMessage1
 
 def bot(op):
